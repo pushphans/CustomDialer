@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactsFragment">
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.contacts.fragments.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" >
+        <action
+            android:id="@+id/action_contactsFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addContactFragment"
+        android:name="com.example.contacts.fragments.AddContactFragment"
+        android:label="fragment_add_contact"
+        tools:layout="@layout/fragment_add_contact" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.contacts.fragments.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit">
+
+        <argument android:name="contacts"
+            app:argType="com.example.contacts.room.Contacts"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/diallerFragment"
+        android:name="com.example.contacts.fragments.DiallerFragment"
+        android:label="fragment_dialler"
+        tools:layout="@layout/fragment_dialler" >
+        <action
+            android:id="@+id/action_diallerFragment_to_saveLogsFragment"
+            app:destination="@id/saveLogsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saveLogsFragment"
+        android:name="com.example.contacts.fragments.SaveLogsFragment"
+        android:label="fragment_save_logs"
+        tools:layout="@layout/fragment_save_logs">
+
+        <argument android:name="logs"
+            app:argType="com.example.contacts.contactlogs.Logs"/>
+
+    </fragment>
+</navigation>
