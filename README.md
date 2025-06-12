@@ -7,18 +7,20 @@
 ## 🖼️ Screenshots
 
 <!-- Replace the underscores with actual image filenames like dialpad.jpg, logs.jpg etc -->
+### 🔸 Home Screen
+<img src="screenshots/home.jpg" width="300" alt="Home Screen"/>
 
-### 🔸 Dialpad
-<img src="screenshots/____dialpad.jpg" width="300" alt="Dialpad Screen"/>
+### 🔸 Search View
+<img src="screenshots/search.jpg" width="300" alt="Search Screen"/>
 
-### 🔸 Call Logs
-<img src="screenshots/____calllogs.jpg" width="300" alt="Call Logs Screen"/>
+### 🔸 Add Contact Fragment
+<img src="screenshots/addContact.jpg" width="300" alt="Add Fragment"/>
 
-### 🔸 Contacts
-<img src="screenshots/____contacts.jpg" width="300" alt="Contacts Screen"/>
+### 🔸 Dialer Fragment (with Logs)
+<img src="screenshots/callLogs.jpg" width="300" alt="Dialer Fragment"/>
 
-### 🔸 Call In Progress
-<img src="screenshots/____call.jpg" width="300" alt="Call Screen"/>
+### 🔸 DialPad to Call
+<img src="screenshots/dialPad.jpg" width="300" alt="DialPad Screen"/>
 
 <br>
 
