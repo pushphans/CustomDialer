@@ -10,14 +10,22 @@
 ### 🔸 Home Screen
 <img src="screenshots/home.jpg" width="300" alt="Home Screen"/>
 
+<br>
+
 ### 🔸 Search View
 <img src="screenshots/search.jpg" width="300" alt="Search Screen"/>
+
+<br>
 
 ### 🔸 Add Contact Fragment
 <img src="screenshots/addContact.jpg" width="300" alt="Add Fragment"/>
 
+<br>
+
 ### 🔸 Dialer Fragment (with Logs)
 <img src="screenshots/callLogs.jpg" width="300" alt="Dialer Fragment"/>
+
+<br>
 
 ### 🔸 DialPad to Call
 <img src="screenshots/dialPad.jpg" width="300" alt="DialPad Screen"/>
